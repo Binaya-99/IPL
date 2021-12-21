@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.136)), url("ipltrophy.jpg") center/cover no-repeat fixed;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+    <title>ipl2021</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header id="header" class="top">
+
+        <ul id="topelement">
+            <li class="brand">
+                <a href="index.html"><img src="logo.png" alt="IPL"></a>
+            </li>
+            <a href="" target="_blank" hidden></a>
+            <input id="searchbar" type="text" name="search" placeholder="Search player">
+            <button type="submit" class="searchbtn">Search </button>
+            <li><a href="index.html" class="home">HOME</a></li>
+        </ul>
+    </header>
+
+
+
+
+
+    <form id="Form">
+        <label>You can create Your own team Card here</label><br>
+        <label><b>Enter team name</label></b><br>
+        <input id="inputName" type="text" placeholder="Your Team Name">
+        <label><b>Enter team Logo URL</label></b><br>
+        <input id="inputName2" type="text" placeholder="Logo Url">
+        <button id="button" onclick="buttonclick()">Create team</button>
+        <button id="button2" onclick="button2click()">Delete Your Teams</button>
+    </form>
+
+
+    <script>
+        function button2click() {
+            localStorage.clear()
+            var team = document.getElementById("yourteam")
+            team.style.display = "none"
+            window.location.href = "index.html";
+        }
+    </script>
+
+    <script src="index.js"></script>
+</body>

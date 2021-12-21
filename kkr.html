@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.136)),url("img/kkr.png") center/cover no-repeat fixed;
+        }
+    </style>
+    <title>ipl2021</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>51
+    <header id="header" class="top">
+
+        <ul id="topelement">
+            <li class="brand">
+                <a href="index.html"><img src="img/kkr.png" alt="IPL"></a>
+            </li>
+            <input id="searchbar" onkeyup="search_playerorteam()" type="text" name="search" placeholder="Search player">
+            <button type="submit" class="searchbtn">Search </button>
+            <li><a href="index.html" class="home" style="color: rgb(255, 255, 255); margin-left: 0%;">HOME</a></li>
+        </ul>
+
+    </header>
+    <div class="trophy">
+        <img src="img/ico-trophy.png" alt="trophy">
+        <span>2012,2014</span>
+
+    </div>
+    <div id="kkrtable" style="display: flex; flex-direction: row;">
+        <table id="kkrtable1" style="display: flex; flex-direction: column;">
+            <tr>
+                <th class="thclass">PLAYERS NAME</th>
+            </tr>
+
+        </table>
+        <div id="kkrplayers" style="margin-left: 40%;">
+
+
+        </div>
+
+    </div>
+    
+
+    <section class="menu" id="menu" style="display: flex; flex-direction: row;background-color: brown;">
+		<article class="menu-image">
+            <img src="/img/rusell.png" alt="">
+        </article>
+		<article class="menu-text" style="background-color: brown;">
+			<div class="menu-text-center">
+				<h1>TOP BATSMAN</h1>
+				<p> He made his mark in the IPL for KKR in the 2015 season when he was adjudged the MVP for scoring 392 runs at a strike rate of 192.</p>
+				<a href="#">Explore</a>
+			</div>
+		</article>
+        <article class="menu-image">
+            <img src="/img/rusell.png" alt="">
+        </article>
+		<article class="menu-text" style="background-color: brown;">
+			<div class="menu-text-center">
+				<h1>TOP BOWLER</h1>
+				<p>Dre Russ, as he is popularly known among fans, soared to prominence for his power hitting and all-round supremacy. He made his mark in the IPL for KKR in the 2021 season when he was adjudged the MVP for scoring 392 runs at a strike rate of 192 and also picking up 14 wickets.</p>
+				<a href="#">Explore</a>
+			</div>
+		</article>
+	</section>
+
+
+    <script src="index.js"></script>
+    <script src="kkr.js"></script>
+</body>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{ 
+            background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.136)),url("img/dc.png") center/cover no-repeat fixed;
+
+        }
+    </style>
+    <title>ipl2021</title>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header id="header" class="top">
+        
+
+        <ul id="topelement">
+            <li class="brand">
+                <a href="index.html"><img src="img/dc.png" alt="IPL"></a>
+            </li>
+            <input id="searchbar" onkeyup="search_playerorteam()" type="text" name="search" placeholder="Search player">
+            <button type="submit" class="searchbtn">Search </button>
+            <li><a href="index.html" class="home" style="color: rgb(255, 255, 255); margin-left: 0%;">HOME</a></li>
+        </ul>
+        
+    </header>
+    
+    <div id="dctable" style="display: flex; flex-direction: row;">
+        <table id="dctable1" style="display: flex; flex-direction: column;">
+            <tr>
+                <th class="thclass">PLAYERS NAME</th>
+            </tr>
+
+        </table>
+        <div id="dcplayers" style="margin-left: 40%;">
+
+
+        </div>
+
+    </div>
+    
+
+    <section class="menu" id="menu" style="display: flex; flex-direction: row;background-color: blue;">
+		<article class="menu-image">
+            <img src="/img/dhawan.png" alt="">
+        </article>
+		<article class="menu-text" style="background-color: blue;">
+			<div class="menu-text-center">
+				<h1>TOP BATSMAN</h1>
+				<p>Shikhar Dhawan (430)
+                    He has amassed 430 runs in ten matches so far in IPL 2021 and is likely to regain the top spot in Delhi Capitals' next game as he is only 3 runs behind Samson.</p>
+				<a href="#">Explore</a>
+			</div>
+		</article>
+        <article class="menu-image">
+            <img src="/img/Avesh-Khan.png" alt="">
+        </article>
+		<article class="menu-text" style="background-color: blue;">
+			<div class="menu-text-center">
+				<h1>TOP BOWLER</h1>
+				<p>Avesh Khan - Most Successful DC bowler in IPL 2021
+                    He was the leading wicket-taker for the Delhi Capitals, scalping 24 wickets in 16 matches. Khan's pace troubled the world's best batters in IPL 2021. His bowling average was 18.75, and his economy rate was below 7.5 runs per over.</p>
+				<a href="#">Explore</a>
+			</div>
+		</article>
+	</section>
+    
+    
+    <script src="index.js"></script>
+    <script src="dc.js"></script>
+</body>

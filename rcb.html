@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>ipl2021</title>
+    <style>
+        body{ 
+            background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.136)),url("img/rcb.png") center/cover no-repeat fixed;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header id="header" class="top">
+        
+
+        <ul id="topelement">
+            <li class="brand">
+                <a href="index.html"><img src="img/rcb.png" alt="IPL"></a>
+            </li>
+            <input id="searchbar" onkeyup="search_playerorteam()" type="text" name="search" placeholder="Search player">
+            <button type="submit" class="searchbtn">Search </button>
+            <li><a href="index.html" class="home" style="color: rgb(255, 255, 255); margin-left: 0%;">HOME</a></li>
+        </ul>
+      
+        
+    </header>
+  
+    <div id="rcbtable" style="display: flex; flex-direction: row;">
+        <table id="rcbtable1" style="display: flex; flex-direction: column;">
+            <tr>
+                <th class="thclass">PLAYERS NAME</th>
+            </tr>
+
+        </table>
+        <div id="rcbplayers" style="margin-left: 40%;">
+
+
+        </div>
+
+    </div>
+    
+
+    <section class="menu" id="menu" style="display: flex; flex-direction: row;background-color: brown;">
+		<article class="menu-image">
+            <img src="/img/abd.png" alt="">
+        </article>
+		<article class="menu-text" style="background-color: brown;">
+			<div class="menu-text-center">
+				<h1>TOP BATSMAN</h1>
+				<p>AB de Villiers is the greatest match-winner with the bat for the RCB in the IPL. His ability to consistently score big runs at a very high strike rate in the middle order make him a higher impact batsman than even Virat Kohli and Chris Gayle for the RCB. It has become a habit now.</p>
+				<a href="#">Explore</a>
+			</div>
+		</article>
+        <article class="menu-image">
+            <img src="/img/harsal.png" alt="">
+        </article>
+		<article class="menu-text" style="background-color: brown;">
+			<div class="menu-text-center">
+				<h1>TOP BOWLER</h1>
+				<p>IPL 2021: Harshal Patel sets new record of most wickets by an Indian bowler in a season. ABU DHABI (UAE): Royal Challengers Bangalore (RCB) bowler Harshal Patel now holds the record of taking the most number of wickets in an Indian Premier League (IPL) season as an Indian</p>
+				<a href="#">Explore</a>
+			</div>
+		</article>
+	</section>
+    
+    <script src="rcb.js"></script>
+</body>
